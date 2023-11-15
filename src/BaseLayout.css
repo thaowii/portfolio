@@ -1,0 +1,27 @@
+.baselayout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: flex-start;
+  margin-top: 2rem;
+  margin-left: 7.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.navbutton {
+  color: #594F43;
+  font-family: Work Sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+  line-height: 150%;
+  margin: 0;
+}
