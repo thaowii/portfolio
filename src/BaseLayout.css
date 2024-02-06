@@ -9,19 +9,34 @@
   flex-direction: row;
   gap: 2rem;
   justify-content: flex-start;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   margin-left: 7.5rem;
   font-size: 1.25rem;
   font-weight: 600;
 }
 
+.navbackground {
+  background-color: #fcddc1;
+  position: absolute;
+  width: 100vw;
+  height: 6rem;
+  z-index: -1;
+}
+
 .navbutton {
   color: #594F43;
-  font-family: Work Sans;
   font-size: 1.25rem;
-  font-style: normal;
+  font-style: bold;
   font-weight: 600;
   cursor: pointer;
   line-height: 150%;
   margin: 0;
+  transition: background-color 0.3s ease;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.625rem;
+
+}
+
+.navbutton:hover {
+  background-color: #CD905A;
 }

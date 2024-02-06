@@ -1,8 +1,6 @@
-import './App.css';
-import './BaseLayout.css';
-import './Homepage/Homepage.css'
 import { BaseLayout } from './BaseLayout';
 import { HomeContents} from './Homepage/Homepage';
+import { ProjectsContent } from './ProjectsPage/ProjectsPage';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 function App() {
@@ -11,7 +9,7 @@ function App() {
       <BaseLayout>
         <Routes>
           <Route path='/portfolio' element={<HomeContents />} />
-          <Route path='/projects' />
+          <Route path='/projects' element={<ProjectsContent/>} />
           <Route path='about' />
         </Routes>
       </BaseLayout>
